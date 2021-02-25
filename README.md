@@ -1,4 +1,4 @@
-## Simpler PyTorch-based ASR
+## Simple PyTorch-based ASR
 
 Install python version and packages listed in the requirements.txt.
 
