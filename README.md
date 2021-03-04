@@ -16,3 +16,11 @@ Data do not necessarily come in the format required for using with ASR model, so
 Data should organized in pairs of text (.txt) and audio (.wav) files in the same folder.
 
 A .txt-file specifying the file paths (without file extension) belonging to a given subset should be created. See the data folder for reference.
+
+A pre-trained model is included (model.pt) and can be tested with load_model.py. The test should yield the following result:
+
+```
+Validation [169/169, 0.4 min(s)]: Loss=0.056, WER=17.24, CER=5.47
+```
+
+The model is trained for 10 epochs on the full 960 hour LibriSpeech.
